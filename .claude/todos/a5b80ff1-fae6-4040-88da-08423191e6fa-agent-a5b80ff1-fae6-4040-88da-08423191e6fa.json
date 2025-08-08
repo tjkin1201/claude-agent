@@ -1,0 +1,32 @@
+[
+  {
+    "content": "동배즐 프로젝트 폴더 구조 생성",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "기술 스택 선정 및 package.json 생성",
+    "status": "pending",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "네이버 밴드 API 연동 기본 설정",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "배드민턴 특화 데이터 모델 설계",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "기본 서버 및 프론트엔드 골격 구현",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  }
+]

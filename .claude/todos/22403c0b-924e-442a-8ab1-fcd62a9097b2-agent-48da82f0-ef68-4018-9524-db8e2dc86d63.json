@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Create 4 user personas (beginner, intermediate, advanced, club manager) for Korean badminton app",
+    "status": "completed",
+    "id": "ux-personas"
+  },
+  {
+    "content": "Map key user flows: game matching, club discovery, profile setup",
+    "status": "completed",
+    "id": "user-journeys"
+  },
+  {
+    "content": "Design app navigation structure with Korean UX patterns",
+    "status": "completed",
+    "id": "information-architecture"
+  },
+  {
+    "content": "Create wireframes for key screens with Korean mobile UX patterns",
+    "status": "completed",
+    "id": "wireframes"
+  },
+  {
+    "content": "Develop UX design principles for badminton community",
+    "status": "completed",
+    "id": "ux-guidelines"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "content": "프로젝트 구조 분석 및 의존성 확인",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "배포 오케스트레이션 Frontend 프로젝트 초기 설정",
+    "status": "in_progress",
+    "id": "2"
+  },
+  {
+    "content": "메인 대시보드 컴포넌트 구현",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "배포 관리 페이지 구현",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "모니터링 페이지 구현",
+    "status": "pending",
+    "id": "5"
+  },
+  {
+    "content": "API 클라이언트 및 WebSocket 연결 관리",
+    "status": "pending",
+    "id": "6"
+  },
+  {
+    "content": "Redux Toolkit 상태 관리 스토어 구성",
+    "status": "pending",
+    "id": "7"
+  },
+  {
+    "content": "라우팅 및 네비게이션 설정",
+    "status": "pending",
+    "id": "8"
+  }
+]

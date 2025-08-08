@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Implement Korean UX improvements across all 4 detail screens",
+    "status": "in_progress",
+    "id": "ux-improvements"
+  },
+  {
+    "content": "Ensure 44px+ touch targets and clear labels",
+    "status": "pending",
+    "id": "accessibility-compliance"
+  },
+  {
+    "content": "Apply Korean app navigation and interaction patterns",
+    "status": "pending",
+    "id": "korean-ui-patterns"
+  },
+  {
+    "content": "Optimize loading times to <3s target",
+    "status": "pending",
+    "id": "performance-optimization"
+  },
+  {
+    "content": "Enhance components with transparent info and badges",
+    "status": "pending",
+    "id": "component-enhancements"
+  }
+]

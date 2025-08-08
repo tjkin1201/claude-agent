@@ -1,0 +1,22 @@
+[
+  {
+    "content": ".claude 디렉토리 구조 분석 및 에이전트 목록 확인",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "모든 명령어와 플래그 분석",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "CLAUDE.md에 전체 에이전트와 명령어 통합",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "자동 활성화 규칙 및 사용 시나리오 추가",
+    "status": "completed",
+    "id": "4"
+  }
+]

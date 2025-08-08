@@ -1,0 +1,17 @@
+[
+  {
+    "content": "PATH 환경변수 상태 확인",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "npm 전역 경로를 시스템 PATH에 추가",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "새 터미널에서 claude 명령어 테스트",
+    "status": "completed",
+    "id": "3"
+  }
+]

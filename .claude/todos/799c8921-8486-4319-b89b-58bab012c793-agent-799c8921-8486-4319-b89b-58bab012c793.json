@@ -1,0 +1,32 @@
+[
+  {
+    "content": "사용자 시나리오 기반 프로토타입 설계",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "핵심 사용자 여정 매핑 및 감정 반영",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "체육관 현장 중심 UI/UX 프로토타입",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "마이크로 인터랙션 및 피드백 설계",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "프로토타입 테스트 시나리오 작성",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "content": "/img-extract에 UI/UX 디자인 분석 기능 추가",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Magic MCP와 연동하여 UI 컴포넌트 생성",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "디자인 시스템 추출 및 분석 기능",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "UI/UX 전용 슬래시 명령어 생성",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "UI/UX 워크플로우 테스트 및 검증",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  }
+]

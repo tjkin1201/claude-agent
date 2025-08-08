@@ -1,0 +1,38 @@
+[
+  {
+    "content": "MVP 핸심 기능 정의 및 우선순위 설정",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "비용 최소화 아키텍처 설계",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "기존 도구 활용 중심의 단계별 구현 계획",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "최소 자원으로 시작 가능한 기술 스택",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "단계별 확장 로드맵 제시",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "실제 구현 가능성 검증",
+    "status": "completed",
+    "priority": "low",
+    "id": "6"
+  }
+]

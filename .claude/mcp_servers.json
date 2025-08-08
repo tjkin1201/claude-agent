@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\taejo"
+      ]
+    },
+    "memory": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-memory"
+      ]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "text-editor": {
+      "command": "npx",
+      "args": [
+        "mcp-server-text-editor"
+      ]
+    },
+    "image-extractor": {
+      "command": "npx",
+      "args": [
+        "mcp-image-extractor"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Analyze current project status and identify missing components",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Complete remaining screens and components",
+    "status": "in_progress",
+    "id": "2"
+  },
+  {
+    "content": "Implement missing API integrations",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "Add comprehensive error handling",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Optimize performance and add polish",
+    "status": "pending",
+    "id": "5"
+  },
+  {
+    "content": "Complete testing coverage",
+    "status": "pending",
+    "id": "6"
+  },
+  {
+    "content": "Final validation and deployment preparation",
+    "status": "pending",
+    "id": "7"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "content": "현재 메모리 시스템 상태 확인",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "세션 연속성을 위한 워크플로 문서 작성",
+    "status": "completed",
+    "priority": "medium",
+    "id": "2"
+  },
+  {
+    "content": "자동화된 컨텍스트 저장 방법 제안",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  }
+]

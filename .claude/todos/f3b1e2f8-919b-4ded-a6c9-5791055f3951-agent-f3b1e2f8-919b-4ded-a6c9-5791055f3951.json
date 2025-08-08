@@ -1,0 +1,38 @@
+[
+  {
+    "content": "현재 앱 구조 분석 - 범용 vs 소규모 동호회 전용",
+    "status": "completed",
+    "priority": "high",
+    "id": "31"
+  },
+  {
+    "content": "동호회 전용 홈 화면 구현 (ClubHomeScreen)",
+    "status": "completed",
+    "priority": "high",
+    "id": "32"
+  },
+  {
+    "content": "모임비/참가비 납부 관리 화면 구현 (PaymentScreen)",
+    "status": "completed",
+    "priority": "high",
+    "id": "33"
+  },
+  {
+    "content": "동호회 멤버 관리 화면 구현 (MembersScreen)",
+    "status": "completed",
+    "priority": "high",
+    "id": "34"
+  },
+  {
+    "content": "네비게이션 구조 수정 - 동호회 중심으로",
+    "status": "completed",
+    "priority": "medium",
+    "id": "35"
+  },
+  {
+    "content": "리디자인 가이드 문서 작성",
+    "status": "completed",
+    "priority": "medium",
+    "id": "36"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "content": "YouTube 영상 내용 분석을 위한 대안 방법 찾기",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Claude.md 기본 세팅 템플릿 생성",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "사용자 환경에 맞는 설정 적용",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  }
+]

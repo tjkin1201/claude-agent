@@ -1,0 +1,26 @@
+[
+  {
+    "content": "연속적 개발을 위한 실제 프로젝트 예시 생성",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "설계-구현 연속 워크플로 구축",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Cursor/VSCode AI와 연동 방법 시연",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "연속성 유지 팁과 베스트 프랙티스",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  }
+]

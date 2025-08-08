@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Create ClubDetail.tsx - Club information, member list, join button",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create GameDetail.tsx - Game details, participants, join action",
+    "status": "in_progress",
+    "id": "2"
+  },
+  {
+    "content": "Create GameCreate.tsx - Create new game form with validation",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "Create ProfileEdit.tsx - Edit user profile with image upload",
+    "status": "pending",
+    "id": "4"
+  }
+]

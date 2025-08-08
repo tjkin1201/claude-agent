@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Claude Squad 설치 확인 및 실행",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "필수 요구사항 확인 (tmux, gh)",
+    "status": "completed",
+    "priority": "medium",
+    "id": "2"
+  },
+  {
+    "content": "Claude Squad 실행 시도",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Git 리포지토리로 이동",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  }
+]

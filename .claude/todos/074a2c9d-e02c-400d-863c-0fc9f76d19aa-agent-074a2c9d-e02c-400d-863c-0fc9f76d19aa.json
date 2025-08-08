@@ -1,0 +1,32 @@
+[
+  {
+    "content": "신입사원용 기본 개념 설명서 작성",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "시스템별 상세 가이드 작성 (CTC/TMC/PMC/GUI)",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "실무 예제 및 튜토리얼 작성",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "개발 환경 설정 가이드 작성",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "FAQ 및 트러블슈팅 가이드 작성",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  }
+]

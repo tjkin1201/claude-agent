@@ -1,0 +1,38 @@
+[
+  {
+    "content": "SuperClaude 기본 사용법 섹션 작성",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "명령어별 활용 방법 섹션 작성",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "페르소나 시스템 활용법 섹션 작성",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "플래그 시스템 활용법 섹션 작성",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "실전 활용 예시 섹션 작성",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  },
+  {
+    "content": "문서 검토 및 완성",
+    "status": "completed",
+    "priority": "low",
+    "id": "6"
+  }
+]

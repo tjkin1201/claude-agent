@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Discover and categorize files in current directory for analysis",
+    "status": "completed",
+    "priority": "high",
+    "id": "analyze-1"
+  },
+  {
+    "content": "Apply comprehensive code analysis across quality, security, performance domains",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "analyze-2"
+  },
+  {
+    "content": "Generate findings with severity ratings and actionable recommendations",
+    "status": "pending",
+    "priority": "medium",
+    "id": "analyze-3"
+  },
+  {
+    "content": "Present structured analysis report",
+    "status": "pending",
+    "priority": "medium",
+    "id": "analyze-4"
+  }
+]

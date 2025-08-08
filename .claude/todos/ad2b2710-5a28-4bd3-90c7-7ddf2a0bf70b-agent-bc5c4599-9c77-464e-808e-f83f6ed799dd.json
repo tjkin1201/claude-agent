@@ -1,0 +1,42 @@
+[
+  {
+    "content": "프로젝트 구조 및 핵심 설정 파일 생성 (package.json, tsconfig.json, vite.config.ts)",
+    "status": "in_progress",
+    "id": "1"
+  },
+  {
+    "content": "Redux Toolkit store 설정 및 슬라이스 구현 (deployment, monitoring)",
+    "status": "pending",
+    "id": "2"
+  },
+  {
+    "content": "WebSocket 실시간 통신 서비스 구현",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "메인 대시보드 컴포넌트 - 배포 상태 카드 및 메트릭 차트",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "배포 관리 페이지 - 배포 목록 및 실행/롤백 기능",
+    "status": "pending",
+    "id": "5"
+  },
+  {
+    "content": "모니터링 페이지 - 실시간 로그 및 성능 그래프",
+    "status": "pending",
+    "id": "6"
+  },
+  {
+    "content": "라우팅 설정 및 메인 App 컴포넌트 구현",
+    "status": "pending",
+    "id": "7"
+  },
+  {
+    "content": "타입 정의 및 공통 유틸리티 구현",
+    "status": "pending",
+    "id": "8"
+  }
+]

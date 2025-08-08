@@ -1,0 +1,23 @@
+2025-07-24 21:30:45 | DEBUG    | superclaude | SuperClaude called with operation: update
+2025-07-24 21:30:45 | DEBUG    | superclaude | Arguments: {'verbose': False, 'quiet': False, 'install_dir': WindowsPath('C:/Users/taejo/.claude'), 'dry_run': False, 'force': False, 'yes': True, 'operation': 'update', 'check': False, 'components': None, 'backup': False, 'no_backup': False, 'reinstall': False}
+2025-07-24 21:30:45 | INFO     | superclaude | Executing operation: update
+2025-07-24 21:30:45 | INFO     | superclaude | Starting update operation
+2025-07-24 21:30:45 | INFO     | superclaude.security | [ALLOW] Claude directory installation validated: C:\Users\taejo\.claude (PID: 33840)
+2025-07-24 21:30:45 | INFO     | superclaude | Checking for available updates...
+2025-07-24 21:30:45 | DEBUG    | superclaude | Discovered 17 .md files in D:\SuperClaude_Framework\SuperClaude\Commands
+2025-07-24 21:30:45 | DEBUG    | superclaude | Files found: ['analyze.md', 'build.md', 'cleanup.md', 'design.md', 'document.md', 'estimate.md', 'explain.md', 'git.md', 'implement.md', 'improve.md', 'index.md', 'load.md', 'spawn.md', 'task.md', 'test.md', 'troubleshoot.md', 'workflow.md']
+2025-07-24 21:30:45 | DEBUG    | superclaude | Discovered 9 .md files in D:\SuperClaude_Framework\SuperClaude\Core
+2025-07-24 21:30:45 | DEBUG    | superclaude | Files found: ['CLAUDE.md', 'COMMANDS.md', 'FLAGS.md', 'MCP.md', 'MODES.md', 'ORCHESTRATOR.md', 'PERSONAS.md', 'PRINCIPLES.md', 'RULES.md']
+2025-07-24 21:30:45 | DEBUG    | superclaude | Discovered 0 .md files in D:\SuperClaude_Framework\SuperClaude\Hooks
+2025-07-24 21:30:45 | ERROR    | superclaude | Error in update operation: EOF when reading a line
+Traceback (most recent call last):
+  File "D:\SuperClaude_Framework\setup\operations\update.py", line 381, in run
+    components = get_components_to_update(args, installed_components, available_updates)
+  File "D:\SuperClaude_Framework\setup\operations\update.py", line 168, in get_components_to_update
+    return interactive_update_selection(available_updates, installed_components)
+  File "D:\SuperClaude_Framework\setup\operations\update.py", line 200, in interactive_update_selection
+    choice = menu.display()
+  File "D:\SuperClaude_Framework\setup\utils\ui.py", line 194, in display
+    user_input = input("> ").strip().lower()
+                 ~~~~~^^^^^^
+EOFError: EOF when reading a line

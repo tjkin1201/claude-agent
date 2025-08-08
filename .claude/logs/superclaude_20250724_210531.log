@@ -1,0 +1,92 @@
+2025-07-24 21:05:31 | DEBUG    | superclaude | SuperClaude called with operation: install
+2025-07-24 21:05:31 | DEBUG    | superclaude | Arguments: {'verbose': False, 'quiet': False, 'install_dir': WindowsPath('C:/Users/taejo/.claude'), 'dry_run': False, 'force': False, 'yes': True, 'operation': 'install', 'quick': False, 'minimal': True, 'profile': None, 'components': None, 'no_backup': False, 'list_components': False, 'diagnose': False}
+2025-07-24 21:05:31 | INFO     | superclaude | Executing operation: install
+2025-07-24 21:05:31 | INFO     | superclaude | Starting install operation
+2025-07-24 21:05:31 | INFO     | superclaude.security | [ALLOW] Claude directory installation validated: C:\Users\taejo\.claude (PID: 18824)
+2025-07-24 21:05:31 | INFO     | superclaude | Initializing installation system...
+2025-07-24 21:05:31 | DEBUG    | superclaude | Discovered 17 .md files in D:\SuperClaude_Framework\SuperClaude\Commands
+2025-07-24 21:05:31 | DEBUG    | superclaude | Files found: ['analyze.md', 'build.md', 'cleanup.md', 'design.md', 'document.md', 'estimate.md', 'explain.md', 'git.md', 'implement.md', 'improve.md', 'index.md', 'load.md', 'spawn.md', 'task.md', 'test.md', 'troubleshoot.md', 'workflow.md']
+2025-07-24 21:05:31 | DEBUG    | superclaude | Discovered 9 .md files in D:\SuperClaude_Framework\SuperClaude\Core
+2025-07-24 21:05:31 | DEBUG    | superclaude | Files found: ['CLAUDE.md', 'COMMANDS.md', 'FLAGS.md', 'MCP.md', 'MODES.md', 'ORCHESTRATOR.md', 'PERSONAS.md', 'PRINCIPLES.md', 'RULES.md']
+2025-07-24 21:05:31 | DEBUG    | superclaude | Discovered 0 .md files in D:\SuperClaude_Framework\SuperClaude\Hooks
+2025-07-24 21:05:31 | INFO     | superclaude | Validating system requirements...
+2025-07-24 21:05:31 | INFO     | superclaude | All system requirements met
+2025-07-24 21:05:31 | WARNING  | superclaude | Installation directory already exists: C:\Users\taejo\.claude
+2025-07-24 21:05:31 | DEBUG    | superclaude | Discovered 9 .md files in D:\SuperClaude_Framework\SuperClaude\Core
+2025-07-24 21:05:31 | DEBUG    | superclaude | Files found: ['CLAUDE.md', 'COMMANDS.md', 'FLAGS.md', 'MCP.md', 'MODES.md', 'ORCHESTRATOR.md', 'PERSONAS.md', 'PRINCIPLES.md', 'RULES.md']
+2025-07-24 21:05:31 | DEBUG    | superclaude | Discovered 17 .md files in D:\SuperClaude_Framework\SuperClaude\Commands
+2025-07-24 21:05:31 | DEBUG    | superclaude | Files found: ['analyze.md', 'build.md', 'cleanup.md', 'design.md', 'document.md', 'estimate.md', 'explain.md', 'git.md', 'implement.md', 'improve.md', 'index.md', 'load.md', 'spawn.md', 'task.md', 'test.md', 'troubleshoot.md', 'workflow.md']
+2025-07-24 21:05:31 | DEBUG    | superclaude | Discovered 9 .md files in D:\SuperClaude_Framework\SuperClaude\Core
+2025-07-24 21:05:31 | DEBUG    | superclaude | Files found: ['CLAUDE.md', 'COMMANDS.md', 'FLAGS.md', 'MCP.md', 'MODES.md', 'ORCHESTRATOR.md', 'PERSONAS.md', 'PRINCIPLES.md', 'RULES.md']
+2025-07-24 21:05:31 | DEBUG    | superclaude | Discovered 0 .md files in D:\SuperClaude_Framework\SuperClaude\Hooks
+2025-07-24 21:05:31 | DEBUG    | superclaude | Discovered 9 .md files in D:\SuperClaude_Framework\SuperClaude\Core
+2025-07-24 21:05:31 | DEBUG    | superclaude | Files found: ['CLAUDE.md', 'COMMANDS.md', 'FLAGS.md', 'MCP.md', 'MODES.md', 'ORCHESTRATOR.md', 'PERSONAS.md', 'PRINCIPLES.md', 'RULES.md']
+2025-07-24 21:05:31 | INFO     | superclaude | Installing 1 components...
+2025-07-24 21:05:31 | INFO     | superclaude.security | [ALLOW] Claude directory installation validated: C:\Users\taejo\.claude (PID: 18824)
+2025-07-24 21:05:31 | INFO     | superclaude | Installing SuperClaude core framework files...
+2025-07-24 21:05:31 | INFO     | superclaude.security | [ALLOW] Claude directory installation validated: C:\Users\taejo\.claude (PID: 18824)
+2025-07-24 21:05:31 | DEBUG    | superclaude | Copying CLAUDE.md to C:\Users\taejo\.claude\CLAUDE.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Successfully copied CLAUDE.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Copying COMMANDS.md to C:\Users\taejo\.claude\COMMANDS.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Successfully copied COMMANDS.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Copying FLAGS.md to C:\Users\taejo\.claude\FLAGS.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Successfully copied FLAGS.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Copying MCP.md to C:\Users\taejo\.claude\MCP.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Successfully copied MCP.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Copying MODES.md to C:\Users\taejo\.claude\MODES.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Successfully copied MODES.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Copying ORCHESTRATOR.md to C:\Users\taejo\.claude\ORCHESTRATOR.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Successfully copied ORCHESTRATOR.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Copying PERSONAS.md to C:\Users\taejo\.claude\PERSONAS.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Successfully copied PERSONAS.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Copying PRINCIPLES.md to C:\Users\taejo\.claude\PRINCIPLES.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Successfully copied PRINCIPLES.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Copying RULES.md to C:\Users\taejo\.claude\RULES.md
+2025-07-24 21:05:31 | DEBUG    | superclaude | Successfully copied RULES.md
+2025-07-24 21:05:31 | INFO     | superclaude | <CoreComponent(core)> component installed successfully (9 files)
+2025-07-24 21:05:31 | INFO     | superclaude | Updated metadata with framework configuration
+2025-07-24 21:05:31 | INFO     | superclaude | Updated metadata with core component registration
+2025-07-24 21:05:31 | ERROR    | superclaude | Unexpected error during installation: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+Traceback (most recent call last):
+  File "D:\SuperClaude_Framework\setup\operations\install.py", line 376, in perform_installation
+    success = installer.install_components(ordered_components, config)
+  File "D:\SuperClaude_Framework\setup\base\installer.py", line 280, in install_components
+    self._run_post_install_validation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\SuperClaude_Framework\setup\base\installer.py", line 294, in _run_post_install_validation
+    print(f"  ✓ {name}: Valid")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taejo\AppData\Roaming\Python\Python313\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\taejo\AppData\Roaming\Python\Python313\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\taejo\AppData\Roaming\Python\Python313\site-packages\colorama\ansitowin32.py", line 205, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taejo\AppData\Roaming\Python\Python313\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+2025-07-24 21:05:31 | ERROR    | superclaude | Error in install operation: 'cp949' codec can't encode character '\u2717' in position 1: illegal multibyte sequence
+Traceback (most recent call last):
+  File "D:\SuperClaude_Framework\setup\operations\install.py", line 535, in run
+    display_error("Installation failed. Check logs for details.")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SuperClaude_Framework\setup\utils\ui.py", line 297, in display_error
+    print(f"{Colors.RED}[✗] {message}{Colors.RESET}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taejo\AppData\Roaming\Python\Python313\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\taejo\AppData\Roaming\Python\Python313\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\taejo\AppData\Roaming\Python\Python313\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taejo\AppData\Roaming\Python\Python313\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2717' in position 1: illegal multibyte sequence

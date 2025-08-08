@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Initialize 동배즐 project structure and analyze requirements",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Decompose project into parallel workstreams",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Assign 6 specialized agents to parallel tasks",
+    "status": "in_progress",
+    "id": "3"
+  },
+  {
+    "content": "Set up quality gates (level 4)",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Execute parallel development with correct agent types",
+    "status": "pending",
+    "id": "5"
+  },
+  {
+    "content": "Integrate and validate components",
+    "status": "pending",
+    "id": "6"
+  }
+]

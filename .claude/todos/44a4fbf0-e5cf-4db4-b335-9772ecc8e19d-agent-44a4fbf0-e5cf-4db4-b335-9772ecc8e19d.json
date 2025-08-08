@@ -1,0 +1,27 @@
+[
+  {
+    "content": "새로 추가된 테스트 라이브러리 의존성 설치",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "로컬에서 린트 및 타입체크 테스트 실행",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "GitHub에 변경사항 push하여 CI/CD 파이프라인 테스트",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "GitHub Actions 상태 확인 및 Environment 설정 가이드 작성",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "develop 브랜치 생성 및 초기 브랜치 전략 설정",
+    "status": "completed",
+    "id": "5"
+  }
+]

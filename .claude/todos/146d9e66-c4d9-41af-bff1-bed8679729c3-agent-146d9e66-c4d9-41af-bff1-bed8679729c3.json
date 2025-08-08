@@ -1,0 +1,20 @@
+[
+  {
+    "content": "환경 설정 파일들 생성 (.env, quality-config.json)",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Windows 호환 PowerShell 스크립트 생성",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Python 임포트 문제 해결",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  }
+]

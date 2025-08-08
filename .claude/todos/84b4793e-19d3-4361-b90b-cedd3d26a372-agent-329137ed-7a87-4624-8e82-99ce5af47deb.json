@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Analyze existing codebase and create comprehensive information architecture",
+    "status": "completed",
+    "id": "design-1"
+  },
+  {
+    "content": "Create Material Design 3 compliant design system with Korean localization",
+    "status": "completed",
+    "id": "design-2"
+  },
+  {
+    "content": "Design key screen wireframes and user flows for badminton club management",
+    "status": "completed",
+    "id": "design-3"
+  },
+  {
+    "content": "Define accessibility guidelines and WCAG 2.1 AA compliance requirements",
+    "status": "completed",
+    "id": "design-4"
+  },
+  {
+    "content": "Create performance-optimized UI patterns and component specifications",
+    "status": "in_progress",
+    "id": "design-5"
+  }
+]

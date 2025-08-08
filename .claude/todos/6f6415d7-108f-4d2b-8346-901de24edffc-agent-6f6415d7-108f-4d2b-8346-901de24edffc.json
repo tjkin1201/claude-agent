@@ -1,0 +1,200 @@
+[
+  {
+    "content": "클럽 관리 시스템 개발",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "실시간 알림 시스템 (Socket.IO)",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "배드민턴 실력 평가 시스템",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "FCM 컨트롤러 및 라우트 생성",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "알림 서비스와 FCM 통합",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "랭킹 및 통계 시스템",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "이미지 업로드 및 관리 시스템",
+    "status": "completed",
+    "priority": "low",
+    "id": "7"
+  },
+  {
+    "content": "React Native 프로젝트 초기 설정",
+    "status": "completed",
+    "priority": "high",
+    "id": "8"
+  },
+  {
+    "content": "API 서비스 및 테마 설정",
+    "status": "completed",
+    "priority": "high",
+    "id": "9"
+  },
+  {
+    "content": "인증 컨텍스트 구현",
+    "status": "completed",
+    "priority": "high",
+    "id": "10"
+  },
+  {
+    "content": "소켓 컨텍스트 구현",
+    "status": "completed",
+    "priority": "high",
+    "id": "11"
+  },
+  {
+    "content": "LoadingScreen 컴포넌트 생성",
+    "status": "completed",
+    "priority": "high",
+    "id": "12"
+  },
+  {
+    "content": "로그인/회원가입 화면",
+    "status": "completed",
+    "priority": "high",
+    "id": "13"
+  },
+  {
+    "content": "홈 화면 및 대시보드",
+    "status": "completed",
+    "priority": "high",
+    "id": "14"
+  },
+  {
+    "content": "클럽 검색 및 상세 화면",
+    "status": "completed",
+    "priority": "high",
+    "id": "15"
+  },
+  {
+    "content": "게임 생성 및 관리 화면",
+    "status": "completed",
+    "priority": "high",
+    "id": "16"
+  },
+  {
+    "content": "ClubDetailScreen 구현",
+    "status": "completed",
+    "priority": "high",
+    "id": "17"
+  },
+  {
+    "content": "GameDetailScreen 구현",
+    "status": "completed",
+    "priority": "high",
+    "id": "18"
+  },
+  {
+    "content": "GameCreateScreen 구현",
+    "status": "completed",
+    "priority": "high",
+    "id": "19"
+  },
+  {
+    "content": "ProfileEditScreen 구현",
+    "status": "completed",
+    "priority": "medium",
+    "id": "20"
+  },
+  {
+    "content": "네비게이션 연결 업데이트",
+    "status": "completed",
+    "priority": "high",
+    "id": "21"
+  },
+  {
+    "content": "HomeScreen 메인 대시보드 구현",
+    "status": "completed",
+    "priority": "high",
+    "id": "23"
+  },
+  {
+    "content": "ClubsScreen 클럽 목록 및 검색 구현",
+    "status": "completed",
+    "priority": "high",
+    "id": "24"
+  },
+  {
+    "content": "GamesScreen 게임 목록 및 필터링 구현",
+    "status": "completed",
+    "priority": "high",
+    "id": "25"
+  },
+  {
+    "content": "ProfileScreen 사용자 프로필 구현",
+    "status": "completed",
+    "priority": "high",
+    "id": "26"
+  },
+  {
+    "content": "NotificationsScreen 알림 목록 구현",
+    "status": "completed",
+    "priority": "medium",
+    "id": "27"
+  },
+  {
+    "content": "채팅 및 통계 화면 추가 구현",
+    "status": "completed",
+    "priority": "medium",
+    "id": "28"
+  },
+  {
+    "content": "최종 테스트 및 빌드 준비",
+    "status": "completed",
+    "priority": "high",
+    "id": "29"
+  },
+  {
+    "content": "종속성 및 설정 검증",
+    "status": "completed",
+    "priority": "high",
+    "id": "30"
+  },
+  {
+    "content": "타입스크립트 타입 검사",
+    "status": "completed",
+    "priority": "high",
+    "id": "31"
+  },
+  {
+    "content": "ESLint 코드 품질 검사",
+    "status": "completed",
+    "priority": "high",
+    "id": "32"
+  },
+  {
+    "content": "빌드 테스트 실행",
+    "status": "completed",
+    "priority": "high",
+    "id": "33"
+  },
+  {
+    "content": "최종 문서화 업데이트",
+    "status": "in_progress",
+    "priority": "medium",
+    "id": "34"
+  }
+]

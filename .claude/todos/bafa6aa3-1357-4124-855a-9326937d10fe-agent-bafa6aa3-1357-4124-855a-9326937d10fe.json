@@ -1,0 +1,56 @@
+[
+  {
+    "content": "context7-mcp 서버 추가 - @upstash/context7-mcp",
+    "status": "completed",
+    "priority": "medium",
+    "id": "add-context7-mcp"
+  },
+  {
+    "content": "desktop-commander 서버 추가 - @wonderwhy-er/desktop-commander",
+    "status": "completed",
+    "priority": "medium",
+    "id": "add-desktop-commander"
+  },
+  {
+    "content": "mcp-sequentialthinking-tools 서버 추가 - @xinzhongyouhai/mcp-sequentialthinking-tools",
+    "status": "completed",
+    "priority": "medium",
+    "id": "add-sequential-thinking"
+  },
+  {
+    "content": "google-search-mcp 서버 추가 - @modelcontextprotocol-servers/google-search-mcp",
+    "status": "completed",
+    "priority": "medium",
+    "id": "add-google-search"
+  },
+  {
+    "content": "DeepResearchMCP 서버 추가 - @ameeralns/DeepResearchMCP",
+    "status": "completed",
+    "priority": "medium",
+    "id": "add-deep-research"
+  },
+  {
+    "content": "playwright-mcp-server 서버 추가 - @showfive/playwright-mcp-server",
+    "status": "completed",
+    "priority": "medium",
+    "id": "add-playwright"
+  },
+  {
+    "content": "py-mcp-youtube-toolbox 서버 추가 - @jikime/py-mcp-youtube-toolbox",
+    "status": "completed",
+    "priority": "medium",
+    "id": "add-youtube-toolbox"
+  },
+  {
+    "content": "memory-mcp 서버 추가 - @drdee/memory-mcp",
+    "status": "completed",
+    "priority": "medium",
+    "id": "add-memory-mcp"
+  },
+  {
+    "content": "mcp-server-gsc 서버 추가",
+    "status": "completed",
+    "priority": "medium",
+    "id": "add-gsc-server"
+  }
+]

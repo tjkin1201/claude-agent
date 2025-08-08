@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Create ClubDetail.tsx screen with Korean UX patterns",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create GameDetail.tsx screen with participant management",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create GameCreate.tsx form screen with validation",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Create ProfileEdit.tsx screen with image upload",
+    "status": "completed",
+    "id": "4"
+  }
+]

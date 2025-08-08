@@ -1,0 +1,27 @@
+[
+  {
+    "content": "개발 워크플로우 디렉토리 구조 생성",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "서브 에이전트 정의 파일들 생성",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "워크플로우 오케스트레이션 시스템 구축",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "프로젝트 템플릿 및 가이드 문서 작성",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Claude Code agents 디렉토리에 에이전트 파일들 적용",
+    "status": "completed",
+    "id": "5"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "content": "테스트 파일 ESLint 설정 수정",
+    "status": "completed",
+    "priority": "high",
+    "id": "fix-1"
+  },
+  {
+    "content": "사용하지 않는 import 정리",
+    "status": "completed",
+    "priority": "high",
+    "id": "fix-2"
+  },
+  {
+    "content": "console.log 제거 또는 적절한 로깅으로 변경",
+    "status": "in_progress",
+    "priority": "medium",
+    "id": "fix-3"
+  },
+  {
+    "content": "FormData 글로벌 타입 정의",
+    "status": "completed",
+    "priority": "medium",
+    "id": "fix-4"
+  },
+  {
+    "content": "ESLint 설정 최적화",
+    "status": "completed",
+    "priority": "low",
+    "id": "fix-5"
+  }
+]

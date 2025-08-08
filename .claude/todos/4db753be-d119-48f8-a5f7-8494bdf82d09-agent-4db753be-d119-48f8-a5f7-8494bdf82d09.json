@@ -1,0 +1,44 @@
+[
+  {
+    "content": "기존 설정 파일 백업",
+    "status": "completed",
+    "priority": "high",
+    "id": "backup_config"
+  },
+  {
+    "content": "filesystem MCP 서버 설치 및 설정",
+    "status": "completed",
+    "priority": "high",
+    "id": "install_filesystem"
+  },
+  {
+    "content": "memory MCP 서버 설치 및 설정",
+    "status": "completed",
+    "priority": "high",
+    "id": "install_memory"
+  },
+  {
+    "content": "sequential-thinking MCP 서버 설침 및 설정",
+    "status": "completed",
+    "priority": "high",
+    "id": "install_sequential"
+  },
+  {
+    "content": "playwright MCP 서버 설치 및 설정",
+    "status": "completed",
+    "priority": "medium",
+    "id": "install_playwright"
+  },
+  {
+    "content": "brave-search MCP 서버 설치 및 설정",
+    "status": "completed",
+    "priority": "medium",
+    "id": "install_brave_search"
+  },
+  {
+    "content": "새 설정으로 MCP 서버 테스트",
+    "status": "completed",
+    "priority": "high",
+    "id": "test_new_config"
+  }
+]

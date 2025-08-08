@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Analyze current backend structure and identify optimization opportunities",
+    "status": "completed",
+    "id": "backend-analysis"
+  },
+  {
+    "content": "Implement smart matching algorithm with skill level, location, and time preferences",
+    "status": "completed",
+    "id": "smart-matching"
+  },
+  {
+    "content": "Add Socket.IO for real-time game updates and chat system",
+    "status": "in_progress",
+    "id": "realtime-features"
+  },
+  {
+    "content": "Optimize API response times (<200ms) with caching and database indexing",
+    "status": "pending",
+    "id": "performance-optimization"
+  },
+  {
+    "content": "Implement Korean phone validation, address support, and KST timezone handling",
+    "status": "pending",
+    "id": "korean-localization"
+  },
+  {
+    "content": "Migrate from temporary in-memory data to MongoDB with proper schemas",
+    "status": "pending",
+    "id": "database-migration"
+  }
+]

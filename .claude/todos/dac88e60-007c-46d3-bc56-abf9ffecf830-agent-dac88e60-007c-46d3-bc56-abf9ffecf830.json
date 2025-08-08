@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Claude Code 설치 상태 확인",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "PATH 환경변수에 Claude Code 경로 추가",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "claude 명령어 실행 테스트",
+    "status": "completed",
+    "id": "3"
+  }
+]

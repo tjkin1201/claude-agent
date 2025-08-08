@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Playwright 테스트 환경 설정 확인",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "기본 앱 로딩 테스트 실행",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "주요 화면 네비게이션 테스트",
+    "status": "in_progress",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "로그인 플로우 테스트",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "테스트 결과 리포트 생성",
+    "status": "pending",
+    "priority": "low",
+    "id": "5"
+  }
+]
