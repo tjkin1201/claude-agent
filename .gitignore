@@ -1,0 +1,16 @@
+# 민감한 정보 제외
+.credentials.json
+.superclaude-metadata.json
+*.key
+*.pem
+**/node_modules/
+**/logs/
+**/backups/
+**/todos/
+**/shell-snapshots/
+**/statsig/
+projects/C--WINDOWS-system32/
+local/
+mcp-status.md
+*.tar.gz
+*.jsonl

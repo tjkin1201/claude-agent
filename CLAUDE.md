@@ -1,6 +1,32 @@
+# SuperClaude Entry Point
+
+**한국어 응답**: 사용자와의 모든 대화는 한국어로 응답해주세요.
+
+**환각 방지 시스템**: 
+- 확인되지 않은 정보나 추측성 답변 금지
+- 모든 답변은 실제 코드, 파일, 문서를 기반으로만 제공
+- 불확실한 내용은 "확인이 필요합니다" 명시
+- 존재하지 않는 파일, 함수, 라이브러리 참조 금지
+- 검증 가능한 증거 없는 주장 금지
+
+**파일 관리 규칙**:
+- 모든 Claude 관련 설정은 C:\Users\taejo\.claude\ 폴더 내에서만 생성
+- 프로젝트별 설정도 .claude 폴더 구조를 따라 체계적으로 관리
+- 무분별한 파일 생성 금지, 기존 구조 활용 우선
+
+@COMMANDS.md
+@FLAGS.md
+@PRINCIPLES.md
+@RULES.md
+@MCP.md
+@PERSONAS.md
+@ORCHESTRATOR.md
+@MODES.md
+
 # CLAUDE.md - SuperClaude Framework Project Configuration
 
 This file provides SuperClaude-enhanced guidance to Claude Code when working in this repository.
+
 
 ## 🚀 SuperClaude Framework Activation
 
@@ -389,111 +415,111 @@ wave_strategies:
 # 자동: Wave 오케스트레이션, 다단계 개선
 ```
 
-## Universal Development Guidelines
+## 범용 개발 가이드라인
 
-### Code Quality Standards
-- Write clean, readable, and maintainable code
-- Follow consistent naming conventions across the project
-- Use meaningful variable and function names
-- Keep functions focused and single-purpose
-- Add comments for complex logic and business rules
+### 코드 품질 기준
+- 깨끗하고 읽기 쉬우며 유지보수 가능한 코드 작성
+- 프로젝트 전반에 걸쳐 일관된 명명 규칙 준수
+- 의미 있는 변수명과 함수명 사용
+- 함수는 단일 목적에 집중하여 작성
+- 복잡한 로직과 비즈니스 규칙에는 주석 추가
 
-### Git Workflow
-- Use descriptive commit messages following conventional commits format
-- Create feature branches for new development
-- Keep commits atomic and focused on single changes
-- Use pull requests for code review before merging
-- Maintain a clean commit history
+### Git 워크플로우
+- 기존 커밋 형식을 따라 명확한 커밋 메시지 작성
+- 새로운 개발 작업을 위한 feature 브랜치 생성
+- 커밋은 단일 변경사항에 집중하여 원자적으로 작성
+- 병합 전 코드 리뷰를 위한 풀 리퀘스트 사용
+- 깨끗한 커밋 히스토리 유지
 
-### Documentation
-- Keep README.md files up to date
-- Document public APIs and interfaces
-- Include usage examples for complex features
-- Maintain inline code documentation
-- Update documentation when making changes
+### 문서화
+- README.md 파일을 최신 상태로 유지
+- 공개 API 및 인터페이스 문서화
+- 복잡한 기능에 대한 사용 예제 포함
+- 인라인 코드 문서화 유지
+- 변경사항 발생 시 문서 업데이트
 
-### Testing Approach
-- Write tests for new features and bug fixes
-- Maintain good test coverage
-- Use descriptive test names that explain the expected behavior
-- Organize tests logically by feature or module
-- Run tests before committing changes
+### 테스트 접근법
+- 새로운 기능과 버그 수정에 대한 테스트 작성
+- 좋은 테스트 커버리지 유지
+- 예상 동작을 설명하는 명확한 테스트 이름 사용
+- 기능이나 모듈별로 테스트를 논리적으로 구성
+- 커밋 전 테스트 실행
 
-### Security Best Practices
-- Never commit sensitive information (API keys, passwords, tokens)
-- Use environment variables for configuration
-- Validate input data and sanitize outputs
-- Follow principle of least privilege
-- Keep dependencies updated
+### 보안 모범 사례
+- 민감한 정보(API 키, 비밀번호, 토큰)를 절대 커밋하지 않음
+- 설정을 위해 환경 변수 사용
+- 입력 데이터 유효성 검사 및 출력 데이터 검증
+- 최소 권한 원칙 준수
+- 종속성을 최신 상태로 유지
 
-## Project Structure Guidelines
+## 프로젝트 구조 가이드라인
 
-### File Organization
-- Group related files in logical directories
-- Use consistent file and folder naming conventions
-- Separate source code from configuration files
-- Keep build artifacts out of version control
-- Organize assets and resources appropriately
+### 파일 조직
+- 관련 파일들을 논리적 디렉토리로 그룹화
+- 일관된 파일 및 폴더 명명 규칙 사용
+- 소스 코드와 설정 파일 분리
+- 빌드 산출물을 버전 관리에서 제외
+- 자산과 리소스를 적절히 구성
 
-### Configuration Management
-- Use configuration files for environment-specific settings
-- Centralize configuration in dedicated files
-- Use environment variables for sensitive or environment-specific data
-- Document configuration options and their purposes
-- Provide example configuration files
+### 설정 관리
+- 환경별 설정을 위한 설정 파일 사용
+- 전용 파일에 설정을 중앙 집중화
+- 민감하거나 환경별 데이터를 위한 환경 변수 사용
+- 설정 옵션과 목적 문서화
+- 예제 설정 파일 제공
 
-## Development Workflow
+## 개발 워크플로우
 
-### Before Starting Work
-1. Pull latest changes from main branch
-2. Create a new feature branch
-3. Review existing code and architecture
-4. Plan the implementation approach
+### 작업 시작 전
+1. 메인 브랜치에서 최신 변경사항 가져오기
+2. 새로운 기능 브랜치 생성
+3. 기존 코드와 아키텍처 검토
+4. 구현 접근법 계획
 
-### During Development
-1. Make incremental commits with clear messages
-2. Run tests frequently to catch issues early
-3. Follow established coding standards
-4. Update documentation as needed
+### 개발 중
+1. 명확한 메시지로 점진적 커밋
+2. 이슈를 조기에 발견하기 위해 자주 테스트 실행
+3. 확립된 코딩 표준 준수
+4. 필요에 따라 문서 업데이트
 
-### Before Submitting
-1. Run full test suite
-2. Check code quality and formatting
-3. Update documentation if necessary
-4. Create clear pull request description
+### 제출 전
+1. 전체 테스트 스위트 실행
+2. 코드 품질과 포매팅 확인
+3. 필요 시 문서 업데이트
+4. 명확한 풀 리퀘스트 설명 작성
 
-## Common Patterns
+## 일반적인 패턴
 
-### Error Handling
-- Use appropriate error handling mechanisms for the language
-- Provide meaningful error messages
-- Log errors appropriately for debugging
-- Handle edge cases gracefully
-- Don't expose sensitive information in error messages
+### 에러 처리
+- 언어에 적합한 에러 처리 메커니즘 사용
+- 의미 있는 에러 메시지 제공
+- 디버깅을 위해 적절히 에러 로깅
+- 엣지 케이스를 우아하게 처리
+- 에러 메시지에 민감한 정보 노출하지 않음
 
-### Performance Considerations
-- Profile code for performance bottlenecks
-- Optimize database queries and API calls
-- Use caching where appropriate
-- Consider memory usage and resource management
-- Monitor and measure performance metrics
+### 성능 고려사항
+- 성능 병목 지점을 위한 코드 프로파일링
+- 데이터베이스 쿼리와 API 호출 최적화
+- 적절한 곳에 캐싱 사용
+- 메모리 사용량과 리소스 관리 고려
+- 성능 메트릭 모니터링 및 측정
 
-### Code Reusability
-- Extract common functionality into reusable modules
-- Use dependency injection for better testability
-- Create utility functions for repeated operations
-- Design interfaces for extensibility
-- Follow DRY (Don't Repeat Yourself) principle
+### 코드 재사용성
+- 공통 기능을 재사용 가능한 모듈로 추출
+- 테스트 가능성을 위한 의존성 주입 사용
+- 반복되는 작업을 위한 유틸리티 함수 생성
+- 확장성을 위한 인터페이스 설계
+- DRY(Don't Repeat Yourself) 원칙 준수
 
-## Review Checklist
+## 검토 체크리스트
 
-Before marking any task as complete:
-- [ ] Code follows established conventions
-- [ ] Tests are written and passing
-- [ ] Documentation is updated
-- [ ] Security considerations are addressed
-- [ ] Performance impact is considered
-- [ ] Code is reviewed for maintainability
+작업을 완료로 표시하기 전:
+- [ ] 코드가 확립된 규칙을 준수하는가
+- [ ] 테스트가 작성되고 통과하는가
+- [ ] 문서가 업데이트되었는가
+- [ ] 보안 고려사항이 다뤄졌는가
+- [ ] 성능 영향이 고려되었는가
+- [ ] 유지보수성을 위해 코드가 검토되었는가
 
 # SuperClaude Quality Gates
 
@@ -514,6 +540,27 @@ Before marking any task as complete:
 - NEVER create files unless they're absolutely necessary for achieving your goal
 - ALWAYS prefer editing an existing file to creating a new one
 - NEVER proactively create documentation files (*.md) or README files unless explicitly requested
+
+## 환각(Hallucination) 방지 규칙
+- **증거 기반 답변만**: 실제로 존재하는 파일, 코드, 라이브러리만 참조
+- **Read 도구 필수**: 파일 내용 언급 전 반드시 Read 도구로 확인
+- **불확실성 명시**: 확신할 수 없는 내용은 "확인이 필요합니다" 표기
+- **검증 우선**: 추측보다는 검증 과정을 먼저 수행
+- **존재하지 않는 것 참조 금지**: 
+  - 가상의 파일 경로 제시 금지
+  - 존재하지 않는 함수/메서드 언급 금지  
+  - 설치되지 않은 라이브러리 사용 가정 금지
+- **실제 확인 후 답변**: 
+  - 파일 구조 → LS/Glob으로 확인 후 답변
+  - 코드 내용 → Read로 확인 후 답변
+  - 설정 사항 → 실제 파일 읽고 답변
+
+## Claude 파일 관리 규칙
+- **집중 관리**: 모든 Claude 설정은 C:\Users\taejo\.claude\ 내에서만
+- **구조화**: @FOLDER-STRUCTURE.md 구조를 따라 체계적 관리
+- **덮어쓰기 금지**: 기존 핵심 시스템 파일 절대 덮어쓰기 불가
+- **정리 우선**: 새 파일 생성보다 기존 파일 활용 우선
+- **백업 필수**: 중요 설정 변경시 반드시 백업 선행
 
 ## SuperClaude Best Practices
 - **Auto-Persona**: 작업에 맞는 전문가 페르소나 자동 활성화

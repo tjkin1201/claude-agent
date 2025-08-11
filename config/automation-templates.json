@@ -1,0 +1,212 @@
+{
+  "templates": {
+    "safe-development": {
+      "name": "안전한 개발 환경",
+      "description": "로컬 개발 시 권장되는 부분 자동화 설정",
+      "command": "claude --allowedTools \"Read\" \"Write(src/**)\" \"Edit(src/**)\" \"Bash(git *)\" \"Bash(npm run dev)\"",
+      "flags": ["--persona-frontend", "--uc"],
+      "use_cases": [
+        "컴포넌트 개발",
+        "기능 구현",
+        "버그 수정"
+      ],
+      "risk_level": "low"
+    },
+    
+    "ci-cd-pipeline": {
+      "name": "CI/CD 파이프라인",
+      "description": "자동화된 빌드 및 배포 프로세스",
+      "command": "claude --allowedTools \"Bash(npm *)\" \"Bash(git *)\" \"Write(dist/**)\" \"Read\"",
+      "flags": ["--uc", "--validate"],
+      "environment_variables": [
+        "CI=true",
+        "NODE_ENV=production"
+      ],
+      "use_cases": [
+        "자동 빌드",
+        "테스트 실행",
+        "배포 준비"
+      ],
+      "risk_level": "medium"
+    },
+    
+    "code-review": {
+      "name": "코드 리뷰 자동화",
+      "description": "PR 및 코드 품질 검토",
+      "command": "claude --allowedTools \"Read\" \"Bash(git diff)\" \"Write(reviews/**)\"",
+      "flags": ["--persona-architect", "--think-hard"],
+      "use_cases": [
+        "PR 리뷰",
+        "코드 품질 분석",
+        "아키텍처 검토"
+      ],
+      "risk_level": "minimal"
+    },
+    
+    "full-refactoring": {
+      "name": "대규모 리팩터링",
+      "description": "전체 코드베이스 개선 작업",
+      "command": "claude --dangerously-skip-permissions",
+      "flags": ["--wave-mode", "--persona-refactorer", "--validate"],
+      "prerequisites": [
+        "백업 완료",
+        "테스트 커버리지 80% 이상",
+        "팀 승인"
+      ],
+      "use_cases": [
+        "API 마이그레이션",
+        "프레임워크 업그레이드",
+        "코드 스타일 통일"
+      ],
+      "risk_level": "high"
+    },
+    
+    "test-automation": {
+      "name": "테스트 자동화",
+      "description": "테스트 작성 및 실행 자동화",
+      "command": "claude --allowedTools \"Write(test/**)\" \"Write(__tests__/**)\" \"Bash(npm test)\" \"Bash(jest *)\" \"Read\"",
+      "flags": ["--persona-qa", "--validate"],
+      "use_cases": [
+        "단위 테스트 작성",
+        "통합 테스트 실행",
+        "커버리지 리포트"
+      ],
+      "risk_level": "low"
+    },
+    
+    "documentation": {
+      "name": "문서화 작업",
+      "description": "프로젝트 문서 생성 및 업데이트",
+      "command": "claude --allowedTools \"Read\" \"Write(docs/**)\" \"Write(*.md)\"",
+      "flags": ["--persona-scribe", "--c7"],
+      "use_cases": [
+        "API 문서 생성",
+        "README 업데이트",
+        "가이드 작성"
+      ],
+      "risk_level": "minimal"
+    },
+    
+    "security-audit": {
+      "name": "보안 감사",
+      "description": "보안 취약점 스캔 및 분석",
+      "command": "claude --allowedTools \"Read\" \"Bash(npm audit)\" \"Write(security-report.md)\"",
+      "flags": ["--persona-security", "--ultrathink", "--validate"],
+      "use_cases": [
+        "의존성 취약점 검사",
+        "코드 보안 분석",
+        "OWASP 검토"
+      ],
+      "risk_level": "minimal"
+    },
+    
+    "database-migration": {
+      "name": "데이터베이스 마이그레이션",
+      "description": "DB 스키마 변경 및 데이터 이전",
+      "command": "claude --allowedTools \"Write(migrations/**)\" \"Bash(npm run migrate*)\" \"Read\"",
+      "flags": ["--persona-backend", "--validate", "--safe-mode"],
+      "prerequisites": [
+        "데이터베이스 백업",
+        "롤백 계획 수립",
+        "스테이징 테스트 완료"
+      ],
+      "use_cases": [
+        "스키마 업데이트",
+        "데이터 변환",
+        "인덱스 최적화"
+      ],
+      "risk_level": "high"
+    },
+    
+    "performance-optimization": {
+      "name": "성능 최적화",
+      "description": "애플리케이션 성능 분석 및 개선",
+      "command": "claude --allowedTools \"Read\" \"Edit(src/**)\" \"Bash(npm run build)\" \"Bash(npm run analyze)\"",
+      "flags": ["--persona-performance", "--think-hard", "--play"],
+      "use_cases": [
+        "번들 크기 최적화",
+        "렌더링 성능 개선",
+        "메모리 누수 해결"
+      ],
+      "risk_level": "medium"
+    },
+    
+    "emergency-hotfix": {
+      "name": "긴급 핫픽스",
+      "description": "프로덕션 이슈 긴급 대응",
+      "command": "claude --dangerously-skip-permissions",
+      "flags": ["--ultrathink", "--validate", "--safe-mode"],
+      "prerequisites": [
+        "이슈 재현 확인",
+        "롤백 준비",
+        "팀 리더 승인"
+      ],
+      "use_cases": [
+        "크리티컬 버그 수정",
+        "보안 패치",
+        "서비스 복구"
+      ],
+      "risk_level": "critical"
+    }
+  },
+  
+  "combinations": {
+    "dev-workflow": {
+      "name": "개발 워크플로우 조합",
+      "sequence": [
+        "safe-development",
+        "test-automation",
+        "code-review"
+      ]
+    },
+    
+    "release-workflow": {
+      "name": "릴리스 워크플로우 조합",
+      "sequence": [
+        "test-automation",
+        "security-audit",
+        "performance-optimization",
+        "documentation",
+        "ci-cd-pipeline"
+      ]
+    },
+    
+    "maintenance-workflow": {
+      "name": "유지보수 워크플로우 조합",
+      "sequence": [
+        "code-review",
+        "full-refactoring",
+        "test-automation",
+        "documentation"
+      ]
+    }
+  },
+  
+  "risk_matrix": {
+    "minimal": {
+      "color": "green",
+      "approval_required": false,
+      "recommended_flags": ["--allowedTools \"Read\""]
+    },
+    "low": {
+      "color": "blue",
+      "approval_required": false,
+      "recommended_flags": ["--allowedTools", "--validate"]
+    },
+    "medium": {
+      "color": "yellow",
+      "approval_required": true,
+      "recommended_flags": ["--allowedTools", "--validate", "--safe-mode"]
+    },
+    "high": {
+      "color": "orange",
+      "approval_required": true,
+      "recommended_flags": ["--validate", "--safe-mode", "--think-hard"]
+    },
+    "critical": {
+      "color": "red",
+      "approval_required": true,
+      "recommended_flags": ["--ultrathink", "--validate", "--safe-mode"]
+    }
+  }
+}
